@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 30px;
-  padding: 30px;
+html,
+body {
+  margin: 100px;
+  margin-top: 25px;
+  padding: 20px;
   font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  background: #f7f7f8;
-  color: #111111;
+  background: #111111;
+  color: #f7f7f8;
 }
-
+body{
+  background-color: #9d46db;
+  border-radius: 15px;
+}
 .App {
   max-width: 720px;
   margin: 0 auto;
@@ -51,6 +56,7 @@ header p {
 }
 
 #inp input {
+  font-weight: bold;
   flex: 1;
   border: 0;
   outline: 0;
@@ -60,11 +66,14 @@ header p {
 
 #inp button {
   border: 0;
-  background: #111111;
-  color: #ffffff;
+  background: #3f8eab;
+  color:rgb(218, 251, 255);
   padding: 8px 12px;
   border-radius: 6px;
   cursor: pointer;
+}
+#inp button:hover{
+  background-color:  #1e627a;
 }
 
 #btns {
@@ -76,11 +85,15 @@ header p {
   padding: 8px 10px;
   border: 1px solid #e5e7eb;
   border-radius: 6px;
-  background: #ffffff;
+  background: #085864;
+  font-size: 17px;
+  color: #eeeeee;
 }
 
 .task-list {
+  font-size: 20px;
   list-style: none;
+  color:#066fc5ff ;
   padding: 0;
   margin: 16px 0;
 }
@@ -103,6 +116,8 @@ header p {
 
 .task-list button {
   background: none;
+  font-size: 20px;
+  font-weight: bold;
   border: 0;
   color: #047857;
   cursor: pointer;
